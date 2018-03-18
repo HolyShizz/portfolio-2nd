@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+@import 'header';
+@import 'section1';
+@import 'section2';
+@import 'footer';
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    box-sizing: border-box;  
+    position: relative;
+}
+
+

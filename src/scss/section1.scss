@@ -1,0 +1,50 @@
+div.firstsection {
+h2 {
+    font-weight: 400;
+}
+div.active-menu {
+    margin-bottom: -3px; 
+    z-index: 100;
+    background-color: white; 
+    border:  gray solid;
+    border-width: 3px 3px 0 3px ;
+    box-sizing: border-box;
+}
+.active-menu h2 {
+    font-weight:bold;
+}
+div.content {
+    border: 3px gray solid;
+    margin-top: 0px;
+    margin: auto;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 99;
+    border-radius: 5px;
+    p,h2 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:rgb(79, 79, 79);
+    }
+    p {
+        font-style: italic;
+    }
+    h2 {
+        font-size:38pt;
+        font-style: normal;
+    }
+}
+.content-menu {
+    margin: auto;
+}
+.pure-u-1-4 {
+    text-align: center;
+    
+}
+.pure-img {
+    margin: auto;
+    display: inline;
+}
+}

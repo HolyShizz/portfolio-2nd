@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(() => {
   $('.top-slider').slick({
     arrows:true,
     speed:500,
@@ -16,8 +16,8 @@ $(document).ready(function(){
   });
 });
 
-$( "div.pure-u-1-4" ).click(function(e) {
+$('div.pure-u-1-4').click(function (e) {
   e.preventDefault();
-  $("div.pure-u-1-4").removeClass('active-menu');
-  $( this ).addClass('active-menu');
+  $('div.pure-u-1-4').removeClass('active-menu');
+  $(this).addClass('active-menu');
 });

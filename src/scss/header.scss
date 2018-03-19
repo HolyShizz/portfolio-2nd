@@ -1,23 +1,26 @@
 header {
-        position: relative;
-        background-image:url(../img/2.png);   
-        background-size: 100% 90%;
-        background-repeat: no-repeat; 
-    h1 {
+    position: relative;
+    background-image: url(../img/2.png);   
+    background-size: 100% 90%;
+    background-repeat: no-repeat; 
+
+        h1 {
         font-family: 'Alegreya',serif;
         font-weight: 400;
         font-style: italic;
         font-size: 90pt;
-        color:#ffff; 
+        color: #ffff; 
         margin: 0;
         padding: 0;
         line-height: 1;
-    }
-    h2,h3 {
+        }
+
+        h2,h3 {
         color: white;
         font-family: 'Open Sans Condensed', sans-serif;
-    }
-    h2 {
+        }
+
+        h2 {
         font-size: 50px;
         line-height: 1;
         font-weight: 600;
@@ -25,8 +28,9 @@ header {
         margin-top: 60px;
         margin-bottom: 30px;
         padding: 0;
-    }
-    h3 {
+        }
+
+        h3 {
         font-size: 40px;
         line-height: 1;
         font-weight: 300;
@@ -34,55 +38,76 @@ header {
         margin-top: 0;
         margin-bottom: 40px;
         padding: 0;
-    }
-    a {
+        }
+   
+        a {
         display: inline-block;
         text-decoration: none;
-        color:#ffff;
-        width:130px;
+        color: #ffff;
+        width: 130px;
         font-family: 'Alegreya', serif;
         font-size: 23pt;
         font-style: normal;
         font-weight: 400;
-    }
-    button a {
+        }
+
+        button a {
         width: 100px;
         font-size: 20px;
         line-height: 1;
         padding: 0;
-    }
-    nav {
+        }
+
+        nav {
         display: flex;
         justify-content: space-between;
-        padding-top:50px;
-    }
-    ul {
+        padding-top: 50px;
+        }
+
+        ul {
         list-style-type: none;
-        margin:0;
+        margin: 0;
         padding: 0; 
-    }
-    li {
+        }
+
+        li {
         display: inline;
-    }
+        }
     
-    a:hover {
-        color:grey;
-    }
+        a:hover {
+        color: grey;
+        }
    
-    .container {
+        .container {
         padding-bottom: 1px;
-    }
-    button.pure-button {
+        }
+
+        button.pure-button {
         background-color: #296f4e;
         border: 2px double black; 
         border-radius: 2px;
-    }
-    .item {
-        text-align: left;
-    }
+        }
 
-    .slidetext {
-        width:65%;
+        .item {
+        text-align: left;
+        }
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 40px;
+        color:gold;
     }
+}
+@media screen and (max-width: 1199px) {
+    h1 {
+        font-size: 40px;
+        color:red;
+    }
+}
+@media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 80px;
+        color:blue;
+    }
+}
 
 }

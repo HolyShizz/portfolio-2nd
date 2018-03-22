@@ -20,3 +20,14 @@
         margin-left: 25px;
     }
 }
+body {
+    @media screen and (max-width: 900px) {
+        .secondsection {
+            text-align: center;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

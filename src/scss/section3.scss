@@ -35,3 +35,16 @@
             }
         }
     }
+body {
+    @media screen and (max-width: 900px) {
+        .thirdsection {
+            .formleft {
+                margin-bottom: 15px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}    

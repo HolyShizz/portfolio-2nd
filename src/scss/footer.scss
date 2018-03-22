@@ -22,14 +22,14 @@ footer {
     }
 
     h1 {
-        font-family: 'Alegreya',serif;
+        font-family: 'Alex Brush', cursive;
         font-weight: 400;
         font-style: italic;
         font-size: 90pt;
         color: gray; 
         margin: 0;
         padding: 0;
-        line-height: 1;
+        
     }
 
     h3 {
@@ -38,6 +38,7 @@ footer {
 
     span {
         color: white;
+        margin-right: 20%;
     }
 
     p:nth-child(1) {
@@ -87,5 +88,25 @@ footer {
 
     .bot-logo {
         text-align: right;
+    }
+}
+body {
+    @media screen and (max-width: 900px) {
+        footer {
+            h1 {
+                font-size: 80px;
+                text-shadow: teal 1px 1px;
+            }
+            h3 {
+                font-size: 15px;
+            }
+            p {
+                font-size: 15px;
+            }
+            li a {
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
     }
 }

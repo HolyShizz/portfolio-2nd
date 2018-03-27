@@ -24,7 +24,7 @@ function newFunction() {
         },
       ],
     });
-    $('.bot-slider').slick({
+    $('.bot-slider-content').slick({
       arrows: true,
       speed: 500,
       infinite: true,

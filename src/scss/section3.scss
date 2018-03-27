@@ -1,22 +1,25 @@
 .thirdsection {
     margin-top: 30px;
-    box-sizing: border-box;
     margin-bottom: 25px;
     
     .container {
         border-top: 3px solid gray;
         padding-top: 25px; 
+        display: flex;
+        justify-content: space-between;
         }
 
     div.forms {
         padding: 10px;
         box-sizing: border-box;
         border-radius: 5px;
+        margin: 0 10px 0 10px;
         }
         button {
             border-radius: 5px; 
         }
         .formleft {
+            margin-left: 2%;
         button {
             width: 28%;
             }
@@ -26,6 +29,7 @@
         }
 
         .formright {
+            margin-right: 0;
             input {
                 width: 54%;
             }
@@ -36,15 +40,60 @@
         }
     }
 body {
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1025px) {
         .thirdsection {
-            .formleft {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding-top: 0;
+
+            .container {
+                padding-top: 15px; 
+            } 
+            .forms {
+                box-sizing: border-box;
+                margin: 0 10px 0 10px;
+            }
+
+            div.formleft {
                 margin-bottom: 15px;
             }
-            img {
-                max-width: 100%;
-                height: auto;
+
+           
+        }
+    }
+}
+
+body {
+    @media screen and (max-width: 600px) {
+        .thirdsection {
+
+            fieldset {
+                text-align: center;
+            }
+
+            div.formleft, div.formright {
+                letter-spacing: normal;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                h3 {
+                    margin: auto;
+                }
+
+                input {
+                    width: 95%;
+                    margin: auto;
+                    margin-bottom: 10px;
+                }
+
+                button {
+                    width: 40%;
+                    margin: auto;
+                }
             }
         }
     }
-}    
+}
+

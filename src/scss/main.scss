@@ -4,6 +4,7 @@
 @import 'header';
 @import 'section1';
 @import 'section2';
+@import 'section3';
 @import 'footer';
 
 .container {
@@ -11,6 +12,16 @@
     max-width: 1100px;
     box-sizing: border-box;  
     position: relative;
+}
+
+.formright {
+    background-color: #01d4f3;
+}
+.formleft {
+    background-color: #e67624;  
+    input {
+    background-color: #e8e8e8; 
+    }
 }
 
 

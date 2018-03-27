@@ -1,0 +1,50 @@
+.thirdsection {
+    margin-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    
+    .container {
+        border-top: 3px solid gray;
+        padding-top: 25px; 
+        }
+
+    div.forms {
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        }
+        button {
+            border-radius: 5px; 
+        }
+        .formleft {
+        button {
+            width: 28%;
+            }
+        input {
+            width: 35%;
+            }
+        }
+
+        .formright {
+            input {
+                width: 54%;
+            }
+            button {
+                width: 40%;
+                margin-left: 4%;
+            }
+        }
+    }
+body {
+    @media screen and (max-width: 900px) {
+        .thirdsection {
+            .formleft {
+                margin-bottom: 15px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}    

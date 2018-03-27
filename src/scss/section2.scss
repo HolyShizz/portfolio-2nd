@@ -1,5 +1,5 @@
 .secondsection {
-    padding-top:30px;
+    padding-top: 30px;
     p {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 300;
@@ -19,29 +19,15 @@
         margin-top: 15px;
         margin-left: 25px;
     }
-    div.thirdsection {
-        border-top:3px solid gray;
-        padding-top: 25px;
-        margin-top:70px;
-        box-sizing: border-box;
-        width: 100%;
-    }
-    div.forms {
-        padding: 10px;
-        box-sizing: border-box;
-        border-radius:5px;
-    }
-    .formleft {
-        background-color: #e67624;  
-        input {
-        width:35%;
-        background-color: #e8e8e8; 
+}
+body {
+    @media screen and (max-width: 900px) {
+        .secondsection {
+            text-align: center;
+            img {
+                max-width: 100%;
+                height: auto;
+            }
         }
-        button {
-            width:20%;
-        }
-    }
-    .formright {
-        background-color: #01d4f3;
     }
 }

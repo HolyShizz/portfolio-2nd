@@ -184,18 +184,20 @@ body {
 body {
     @media screen and (max-width: 440px) {
         header {
+
             img {
                 width: 150px;
             }
 
             h1 {
-                font-size: 50px;
+                font-size: 40px;
             }
 
             h3 {
                 padding: 0 0 3% 0;
                 margin: 0;
             }
+
             h2 {
                 padding: 0 0 3% 0;
                 margin: 0;
@@ -205,10 +207,25 @@ body {
                 width: 40px;
                 font-size: 12px;
             }
+
             .item button {
                 padding: 0 10px 0 10px;
                 border-radius: 2px;
             }
+
+            nav {
+                padding: 10px 0 10px 0;
+                a {
+                    width: 50px;
+                    font-size: 15px;
+                    padding: 0 5px 0 5px;
+                }
+            }
+
+            div.item {
+                padding-left: 10px;
+            }
+
         }
     }
 }

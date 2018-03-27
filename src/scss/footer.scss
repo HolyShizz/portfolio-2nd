@@ -207,7 +207,7 @@ body {
             }
 
             .bot-menu, .bot-slider {
-                margin-top: 80px;
+                margin: 80px 0 15px 0;
                 padding: 0;
             }
 
@@ -222,15 +222,14 @@ body {
 }
 
 body {
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 870px) {
         footer {
            
-            .bot-slider {
-                margin-top: 10px;
-            }
+           
             
-            .bot-menu {
+            .bot-menu, .bot-slider {
                 margin-top: 100px; 
+                margin-bottom: 15px; 
             }
 
             h3 {

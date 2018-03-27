@@ -7,12 +7,12 @@ header {
         h1 {
         font-family: 'Alex Brush', cursive;
         font-style: italic;
-        font-size: 90pt;
+        font-size: 120px;
         color: #ffff; 
         margin: 0;
         padding: 0;
         line-height: 1;
-        color:whitesmoke;
+        color: whitesmoke;
         }
 
         h2,h3 {
@@ -46,7 +46,7 @@ header {
         color: #ffff;
         width: 130px;
         font-family: 'Alegreya', serif;
-        font-size: 23pt;
+        font-size: 30px;
         font-style: normal;
         font-weight: 400;
         }
@@ -78,10 +78,6 @@ header {
         a:hover {
         color: grey;
         }
-   
-        .container {
-        padding-bottom: 1px;
-        }
 
         button.pure-button {
         background-color: #296f4e;
@@ -89,13 +85,19 @@ header {
         border-radius: 2px;
         }
 
-        .item {
-        text-align: left;
+        .top-slider {
+            width: 85%;
+            margin: auto;
         }
     }
 //medium screen
 body {
     @media screen and (max-width: 900px) {
+
+    .top-slider {
+        width: 100%;
+    }
+
     header {
          background-size: 100% 80%; 
         
@@ -127,6 +129,86 @@ body {
             margin: auto;
         }
 
+        }
+    }
+}
+body {
+    @media screen and (max-width: 750px) {
+        header {
+            nav {
+                justify-content: space-around;
+            }
+        }
+    }
+}
+body {
+    @media screen and (max-width: 550px) {
+        header {
+            
+            div.item {
+                padding-left: 30px;
+            }
+
+            nav {
+                padding: 10px 0 10px 0;
+                a {
+                    width: 65px;
+                    font-size: 17px;
+                }
+            }
+
+            h1 {
+                font-size: 70px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            button a {
+                width: 60px;
+                font-size: 15px;
+            }
+            
+            img {
+                width: 200px;
+            }
+        }
+    }
+}
+
+body {
+    @media screen and (max-width: 440px) {
+        header {
+            img {
+                width: 150px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            h3 {
+                padding: 0 0 3% 0;
+                margin: 0;
+            }
+            h2 {
+                padding: 0 0 3% 0;
+                margin: 0;
+            }
+
+            button a {
+                width: 40px;
+                font-size: 12px;
+            }
+            .item button {
+                padding: 0 10px 0 10px;
+                border-radius: 2px;
+            }
         }
     }
 }

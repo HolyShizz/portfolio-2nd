@@ -30,12 +30,21 @@ $(document).ready(() => {
         nextArrow: '<button class="slick-arrow slick-next"><img src="img/navr.png"></button>',
     });
 
+
+
+
+
     $('div.pure-u-1-4').click(function (e) {
+        e.preventDefault();
         $('div.pure-u-1-4').removeClass('active-menu');
         $(this).addClass('active-menu');
     });
+
+    $('div.pure-u-1-4').click(function (u) {
+        u.preventDefault();
+        $('div.content:visible').hide();
+        var $dataid = $(this).data("id");
+        $('div.content[id=' + $dataid + ']').show();
+    });
+
 });
-
-    
-
-    

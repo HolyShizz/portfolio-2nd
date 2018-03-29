@@ -1,13 +1,10 @@
 div.firstsection {
-
     .content {
         display: none;
     }
-
     .visible {
         display: block;
     }
-
     a {
         display: block;
         text-decoration: none;
@@ -15,20 +12,18 @@ div.firstsection {
         font-size: 30px;
         font-weight: 400;
     }
-
     div.active-menu {
-        margin-bottom: -4px; 
+        margin-bottom: -4px;
         z-index: 100;
-        background-color: white; 
+        background-color: white;
         border: gray solid;
-        border-width: 3px 3px 0 3px ;
+        border-width: 3px 3px 0 3px;
         box-sizing: border-box;
         border-bottom: 4px solid white;
         a {
             font-weight: 700;
-            }
+        }
     }
-
     div.content {
         border: 3px gray solid;
         margin-top: 0px;
@@ -40,39 +35,33 @@ div.firstsection {
         box-sizing: border-box;
         z-index: 99;
         border-radius: 5px;
-
         img {
             max-width: 75%;
             height: auto;
-            }
-
-    h2 {
-        font-size: 50px;
-        font-weight: 500;
+        }
+        h2 {
+            font-size: 50px;
+            font-weight: 500;
+        }
+        p,
+        h2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(79, 79, 79);
+        }
+        p {
+            font-style: italic;
+        }
     }
-
-    p, h2 {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: rgb(79, 79, 79);
+    .content-menu {
+        margin: auto;
     }
-
-    p {
-        font-style: italic;
+    .pure-u-1-4 {
+        text-align: center;
     }
-
-    
-}
-.content-menu {
-    margin: auto;
-}
-.pure-u-1-4 {
-    text-align: center;
-    
-}
-.pure-img {
-    margin: auto;
-    display: inline;
-}
+    .pure-img {
+        margin: auto;
+        display: inline;
+    }
 }
 
 //medium screen
@@ -82,7 +71,7 @@ body {
             img {
                 max-width: 90%;
                 height: auto;
-                padding-top: 5px; 
+                padding-top: 5px;
             }
             h2 {
                 font-size: 15px;

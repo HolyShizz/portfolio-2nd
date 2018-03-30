@@ -5,6 +5,11 @@
 @import 'section2';
 @import 'section3';
 @import 'footer';
+
+body {
+    background-color: whitesmoke; 
+}
+
 .container {
     margin: auto;
     max-width: 1100px;

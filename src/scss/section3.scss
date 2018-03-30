@@ -1,6 +1,7 @@
 .thirdsection {
     margin-top: 30px;
     margin-bottom: 25px;
+    letter-spacing: normal;
     .container {
         border-top: 3px solid gray;
         padding-top: 25px;
@@ -17,7 +18,10 @@
         border-radius: 5px;
     }
     .formleft {
+        width: 45%;
+        max-width: 100%;
         margin-left: 2%;
+        box-sizing: border-box;
         button {
             width: 28%;
         }
@@ -26,7 +30,10 @@
         }
     }
     .formright {
+        width: 45%;
+        max-width: 100%;
         margin-right: 0;
+        box-sizing: border-box;
         input {
             width: 54%;
         }
